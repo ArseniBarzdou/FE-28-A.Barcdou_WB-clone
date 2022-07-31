@@ -1,0 +1,24 @@
+{
+  "name": "fe-28-a.barzdou_wb-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArseniBarzdou/FE-28-A.Barzdou_WB-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArseniBarzdou/FE-28-A.Barzdou_WB-clone/issues"
+  },
+  "homepage": "https://github.com/ArseniBarzdou/FE-28-A.Barzdou_WB-clone#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

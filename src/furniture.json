@@ -1,0 +1,42 @@
+[
+    {
+      "imgSrc": "https://avatanplus.com/files/resources/original/576ebf56ce502155889b6b3d.png",
+      "name": "Шорты",
+      "price": "20.00",
+      "listPrice": "30.00",
+      "id": "1"
+    },
+    {
+        "imgSrc": "https://pngimg.com/uploads/boots/boots_PNG7815.png",
+        "name": "Ботинки",
+        "price": "90.00",
+        "listPrice": "91.00",
+        "id": "2"
+      },
+      {
+        "imgSrc": "https://www.freeiconspng.com/thumbs/blank-t-shirt-png/blank-t-shirt-png-9.png",
+        "name": "Майка",
+        "price": "26.00",
+        "listPrice": "30.00",
+        "id": "3"
+      },
+      {
+        "imgSrc": "https://marleymensgroomingco.com/wp-content/uploads/2021/09/Best-shine-beard-oil-for-men.png",
+        "name": "Масло для бороды",
+        "price": "30.00",
+        "listPrice": "39.00",
+        "id": "4"
+      },
+      {
+        "imgSrc": "https://www.pngmart.com/files/4/Cap-PNG-File.png",
+        "name": "Кепка",
+        "price": "30.00",
+        "listPrice": "40.00",
+        "id": "5"
+      },{
+        "imgSrc": "https://www.pngmart.com/files/7/Denim-Jean-PNG-Free-Download.png",
+        "name": "Джинсы",
+        "price": "109.00",
+        "listPrice": "230.00",
+        "id": "6"
+    }]

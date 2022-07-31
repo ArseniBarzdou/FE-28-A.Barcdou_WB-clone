@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+            <a href = "index.html" class = "navbar-brand">Vintage.</a>
+
+            <div id="searchWrapper">
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="search for a character"
+                />
+            </div>
+                
+
+
+            <div class = "cart">
+            <button type = "button" id = "cart-btn">
+                <i class = "fas fa-shopping-cart"></i>
+                <span id = "cart-count-info"></span>
+            </button>
+            
+            <div class = "cart-container">
+                <div class = "cart-list " >
+                <!-- single item -->
+                <!-- <div class = "cart-item">
+                    <img src = "images/armchair.png" alt = "product image">
+                    <div class = "cart-item-info">
+                    <h3 class = "cart-item-name">Arm Chair</h3>
+                    <span class = "cart-item-category">Chair</span>
+                    <span class = "cart-item-price">$120.00</span>
+                    </div>
+
+                    <button type = "button" class = "cart-item-del-btn">
+                    <i class = "fas fa-times"></i>
+                    </button>
+                </div> -->
+                <!-- end of single item  -->
+                </div>
+
+                <div class = "cart-total">
+                <h3>Total: $</h3>
+                <span id = "cart-total-value"></span>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </div>
+        <!-- end of navbar -->
+        <!-- Основной блок слайдера -->
+        <div class="slider">
+            <div class="slide-ana">
+                <div style="background-image: url('./img1/sl1.jpg')"></div>
+                <div style="background-image: url('./img1/sl2.jpg')"></div>
+                <div style="background-image: url('./img1/sl3.jpg')"></div>
+            </div>
+            <span class="icon-arrow_back" id="prev"></span>
+            <span class="icon-arrow_forward" id="next"></span>
+        </div>
+        
+    </header>
+    <!-- end of header -->
+
+    <!-- products section  -->
+    <section class = "products">
+        <div class = "container">
+        <h2>Our Products</h2>
+        <div id="product-list"></div> 
+        <!-- <div class = "product-list"> -->
+            
+        </div>
+        </div>
+    </section>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

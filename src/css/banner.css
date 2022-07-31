@@ -1,0 +1,46 @@
+.banner{
+    flex: 1;
+    padding-top: 6rem;
+    text-align: center;
+}
+.banner > div{
+    margin: 3rem 0;
+}
+.banner .text{
+    font-weight: 500;
+    font-size: 1.15rem;
+    opacity: 0.45;
+}
+.btns{
+    margin: 1.5rem 0;
+}
+.btn{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid var(--fire-bush);
+    background: var(--fire-bush);
+    color: #fff;
+    padding: 0.95rem 0;
+    letter-spacing: 2px;
+    display: block;
+    width: 180px;
+    margin: 0.6rem auto;
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+}
+.btns .btn:last-child{
+    color: var(--fire-bush);
+    background: transparent;
+}
+.btns .btn:first-child:hover{
+    background: transparent;
+    color: var(--fire-bush);
+}
+.btns .btn:last-child:hover{
+    background: var(--fire-bush);
+    color: #fff;
+}
