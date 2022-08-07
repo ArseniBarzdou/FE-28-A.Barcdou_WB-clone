@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/ArseniBarzdou/FE-28-A.Barzdou_WB-clone#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "parcel-reporter-static-files-copy": "^1.4.0"
+  },
+  "staticFiles": {
+    "staticPath": "products"
   }
 }

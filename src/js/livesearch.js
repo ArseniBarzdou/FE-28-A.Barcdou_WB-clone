@@ -16,7 +16,7 @@ export default () => {
     
     const loadProducts = async () => {
         try {
-            const res = await fetch('./furniture.json');
+            const res = await fetch('.dist/products.json');
             prItem = await res.json();
             displayProducts(prItem);
         } catch (err) {
