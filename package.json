@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/index.html"
   },
@@ -18,11 +19,12 @@
     "url": "https://github.com/ArseniBarzdou/FE-28-A.Barzdou_WB-clone/issues"
   },
   "homepage": "https://github.com/ArseniBarzdou/FE-28-A.Barzdou_WB-clone#readme",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "parcel-reporter-static-files-copy": "^1.4.0"
+    "devDependencies": {
+    "@parcel/config-default": "2.0.0-rc.0",
+    "parcel": "2.0.0-rc.0",
+    "parcel-reporter-static-files-copy": "file:../../"
   },
   "staticFiles": {
-    "staticPath": "products"
+    "staticPath": "products.json"
   }
 }
